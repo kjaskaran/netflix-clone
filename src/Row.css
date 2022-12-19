@@ -3,6 +3,11 @@
   margin-left: 20px;
 }
 
+.row__title {
+  font-weight: 600;
+  margin-left: 20px;
+}
+
 .row__posters {
   display: flex;
   overflow-y: hidden;
@@ -11,7 +16,8 @@
 }
 
 .row__posters::-webkit-scrollbar {
-  display: none;
+  width: 0px;
+  background-color: transparent;
 }
 
 .row__poster {

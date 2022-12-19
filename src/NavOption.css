@@ -1,0 +1,21 @@
+.nav__option {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    margin-right: 20px;
+    color: gray;
+    cursor: pointer;
+  }
+
+.navOption__title {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #e5e5e5;
+}
+
+.navOption__title:hover {
+    transform: color 0.4s;
+    color: #b2b2b2;
+}
+
