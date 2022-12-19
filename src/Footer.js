@@ -28,7 +28,7 @@ function Footer() {
         <h3>Contact Us</h3>
       </div>
 
-      <h3 className="footer__copyrightLink">1997-2022 Netflix, Inc.</h3>
+      <h3 className="footer__copyrightLink">© 1997-2022 Netflix, Inc.</h3>
     </div>
   );
 }
