@@ -38,8 +38,6 @@ function PlansScreen() {
     });
   }, [user.uid]);
 
-  console.log(subscription);
-
   useEffect(() => {
     getDocs(
       query(collection(db, "products"), where("active", "==", true))
@@ -60,7 +58,6 @@ function PlansScreen() {
   }, []);
 
   const loadCheckOut = async (priceId) => {
-    console.log(priceId);
     const docRef = await addDoc(
       collection(
         doc(collection(db, "customers"), user.uid),
@@ -74,7 +71,6 @@ function PlansScreen() {
     );
 
     onSnapshot(docRef, async (snap) => {
-      console.log(snap.data());
       const { error, sessionId } = snap.data();
       if (error) {
         alert(`An error occured: ${error.message}`);

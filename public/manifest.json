@@ -3,17 +3,17 @@
   "name": "Netflix Clone",
   "icons": [
     {
-      "src": "https://images.app.goo.gl/zYn55YgqmZ9q2XTu9",
+      "src": "logo192.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "https://images.app.goo.gl/zYn55YgqmZ9q2XTu9",
+      "src": "logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "https://images.app.goo.gl/zYn55YgqmZ9q2XTu9",
+      "src": "logo192.png",
       "type": "image/png",
       "sizes": "512x512"
     }
